@@ -8,7 +8,11 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <h1 className=''>hello world</h1>
+    <div>
+      <h1 className=''>hello world</h1>
+      <h2>my name is rotha</h2>
+    </div>
+    
   )  
 }
 
