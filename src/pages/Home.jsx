@@ -3,7 +3,7 @@ import React from 'react'
 function Home() {
   return (
     <div>
-      hello home
+      hello home push as Nain
     </div>
   )
 }
