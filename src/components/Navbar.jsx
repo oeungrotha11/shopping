@@ -68,9 +68,12 @@ function Navbar() {
           <button className="text-black hover:text-gray-600">
             Cart
           </button>
-          <Link to={'/login'}><button className="px-4 py-2 border rounded-lg text-black hover:bg-gray-100">
-            Login
-          </button></Link>
+
+          <Link to="/login">
+            <button className="px-4 py-2 border rounded-lg text-black hover:bg-gray-100">
+              Login
+            </button>
+          </Link>
         </div>
 
       </div>

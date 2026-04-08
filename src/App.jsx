@@ -12,22 +12,25 @@ import Categories from './pages/Categories'
 import Contact from './pages/Contact'
 import Login from './pages/Login'
 import Register from './pages/Register'
+import ProductVeiw from './pages/ProductVeiw'
+import Checkout from './pages/Checkout'
+import Price from './pages/Price'
 
 
 
-function WithNav(){
-  return(
+function WithNav() {
+  return (
     <div>
-      <Navbar/>
-      <Outlet/>
-      <Footer/>
+      <Navbar />
+      <Outlet />
+      <Footer />
     </div>
   )
 }
-function WithOutNav(){
-  return(
+function WithOutNav() {
+  return (
     <div>
-      <Outlet/>
+      <Outlet />
     </div>
   )
 }
@@ -35,25 +38,29 @@ function WithOutNav(){
 function App() {
 
   return (
-   <BrowserRouter>
+    <BrowserRouter>
       <Routes>
-          <Route element={<WithNav/>}>
-            <Route path='/' element={<Home/>}/>
-            <Route path='/shop' element={<Shop/>}/>
-           <Route path='/category' element={<Categories/>}/>
-           <Route path='/contact' element={<Contact/>}/>
+        <Route element={<WithNav />}>
+          <Route path='/' element={<Home />} />
+          <Route path='/shop' element={<Shop />} />
+          <Route path='/category' element={<Categories />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='productview' element={<ProductVeiw />} />
+          <Route path='/checkout' element={<Checkout/>}/>
+         <Route path='/pricing' element={<Price/>}/>
 
-          </Route>
+        </Route>
       </Routes>
       <Routes>
-          <Route element={<WithOutNav/>}>
-    <Route path='/login' element={<Login/>}/>
-    <Route path='/register' element={<Register/>}/>
-          </Route>
+        <Route element={<WithOutNav />}>
+          <Route path='/login' element={<Login />} />
+          <Route path='/register' element={<Register />} />
+          
+        </Route>
       </Routes>
-   </BrowserRouter>
-    
-  )  
+    </BrowserRouter>
+
+  )
 }
 
 export default App
