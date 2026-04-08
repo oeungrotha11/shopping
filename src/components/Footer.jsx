@@ -3,13 +3,13 @@ import React from 'react'
 function Footer() {
   return (
     <div>
-     
+
       <div class="bg-gray-200 px-6 py-8">
         <div class="max-w-screen-lg mx-auto grid md:grid-cols-2 items-center gap-6">
           <div class="max-w-sm">
             <h3 class="text-slate-900 text-xl font-bold mb-2">Subscribe to Our Shop</h3>
-            <p class="text-slate-600 text-sm leading-relaxed">  Discover the latest trends, explore new arrivals, and upgrade your wardrobe with 
-    our carefully curated collections designed for every lifestyle.</p>
+            <p class="text-slate-600 text-sm leading-relaxed">  Discover the latest trends, explore new arrivals, and upgrade your wardrobe with
+              our carefully curated collections designed for every lifestyle.</p>
           </div>
 
           <div class="max-w-md relative flex items-center p-1.5 bg-white border border-gray-300 rounded-md">
@@ -27,9 +27,9 @@ function Footer() {
             <div class="max-w-sm ">
               <h1 className='font-bold font-stretch-semi-condensed' >Shop</h1>
               <div class="mt-4">
-                <p class="text-slate-900 leading-relaxed text-sm"> We offer a wide range of stylish and comfortable clothing for Men, Women, and Kids. 
-    From casual everyday wear to trendy seasonal collections, our goal is to bring you 
-    quality fashion at affordable prices.</p>
+                <p class="text-slate-900 leading-relaxed text-sm"> We offer a wide range of stylish and comfortable clothing for Men, Women, and Kids.
+                  From casual everyday wear to trendy seasonal collections, our goal is to bring you
+                  quality fashion at affordable prices.</p>
               </div>
 
               <div class="mt-6">
@@ -55,7 +55,7 @@ function Footer() {
             </div>
 
             <div class="lg:col-span-2 grid grid-cols-2 md:grid-cols-3 gap-6">
-              
+
 
               <div>
                 <h6 class="text-slate-900 text-base font-semibold mb-4">Follow Us</h6>
@@ -65,11 +65,11 @@ function Footer() {
                   <li><i class="fa-brands fa-telegram"></i>Telegram</li>
                   <li><i class="fa-brands fa-tiktok"></i>Tik Tok</li>
                   <li><i class="fa-brands fa-instagram"></i>Instagram</li>
-                  
+
                 </ul>
               </div>
 
-              
+
             </div>
           </div>
 
@@ -191,8 +191,8 @@ function Footer() {
           </div>
         </div>
       </div>
-   </div>
-    
+    </div>
+
   )
 }
 
