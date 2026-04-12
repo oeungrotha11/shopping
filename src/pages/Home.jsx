@@ -187,12 +187,12 @@ function Home() {
         </h1>
 
         <div className="w-full overflow-x-auto no-scrollbar pb-9">
-          <div className="flex gap-4">
+          <div className="flex gap-2.5">
 
             {Shoes.map(shoe => (
               <div
                 key={shoe.id}
-                className="flex-shrink-0 w-[calc(25%-12px)]"
+                className="flex-shrink-0 w-[calc(50%-20px)] md:w-[calc(25%-12px)]"
               >
                 <div className="bg-gray-100  px-0.5 py-[1.5px]  rounded-lg group overflow-hidden relative z-50 lg:hover:before:bg-black before:absolute before:inset-0 before:opacity-20 before:transition-all ">
                   <a href="javascript:void(0)" >
