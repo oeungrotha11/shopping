@@ -4,7 +4,7 @@ export const Reviews = [
     name: "Sophia Lee",
     rating: 5,
     comment: "Absolutely love these heels! Perfect for my vacation night party 😍",
-    date: "2026-03-12",
+    date: "2026-04-10",
     avatar: "https://i.pravatar.cc/150?img=1"
   },
   {

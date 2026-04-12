@@ -15,6 +15,8 @@ import Register from './pages/Register'
 import ProductVeiw from './pages/ProductVeiw'
 import Checkout from './pages/Checkout'
 import Price from './pages/Price'
+import Men_product from './pages/men/Men_product'
+import Women_product from './pages/men/Women_product'
 
 
 
@@ -47,7 +49,9 @@ function App() {
           <Route path='/contact' element={<Contact />} />
           <Route path='productview' element={<ProductVeiw />} />
           <Route path='/checkout' element={<Checkout/>}/>
-         <Route path='/pricing' element={<Price/>}/>
+          <Route path='/pricing' element={<Price/>}/>
+          <Route path='/men_product' element={<Men_product/>}/>
+          <Route path='/women_product' element={<Women_product/>}/>
 
         </Route>
       </Routes>

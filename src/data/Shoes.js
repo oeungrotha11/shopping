@@ -5,7 +5,8 @@ export const Shoes = [
     brand: "Nike",
     price: 120,
     category: "Lifestyle",
-    image: "https://i.pinimg.com/736x/78/a7/74/78a7745a54a0d3b5d9751e300dfc5478.jpg"
+    image: "https://i.pinimg.com/736x/78/a7/74/78a7745a54a0d3b5d9751e300dfc5478.jpg",
+    rating: { rate: 4.7, count: 2450 }
   },
   {
     id: 2,
@@ -13,7 +14,8 @@ export const Shoes = [
     brand: "Nike",
     price: 110,
     category: "Streetwear",
-    image: "https://i.pinimg.com/1200x/5a/dd/37/5add377386b0a7174f23cccd014e1490.jpg"
+    image: "https://i.pinimg.com/1200x/5a/dd/37/5add377386b0a7174f23cccd014e1490.jpg",
+    rating: { rate: 4.6, count: 1980 }
   },
   {
     id: 3,
@@ -21,7 +23,8 @@ export const Shoes = [
     brand: "Nike",
     price: 180,
     category: "Running",
-    image: "https://i.pinimg.com/webp/1200x/e4/b4/52/e4b452e517db6aa441e89a5e1784fcff.webp"
+    image: "https://i.pinimg.com/webp/1200x/e4/b4/52/e4b452e517db6aa441e89a5e1784fcff.webp",
+    rating: { rate: 4.5, count: 3120 }
   },
   {
     id: 4,
@@ -29,7 +32,8 @@ export const Shoes = [
     brand: "Nike",
     price: 130,
     category: "Running",
-    image: "https://i.pinimg.com/736x/08/b7/fa/08b7fa4b886929669fd677d82993e1f0.jpg"
+    image: "https://i.pinimg.com/736x/08/b7/fa/08b7fa4b886929669fd677d82993e1f0.jpg",
+    rating: { rate: 4.4, count: 1750 }
   },
   {
     id: 5,
@@ -37,7 +41,8 @@ export const Shoes = [
     brand: "Nike",
     price: 160,
     category: "Running",
-    image: "https://i.pinimg.com/1200x/67/92/8c/67928c076f00931bd7753dc886904ada.jpg"
+    image: "https://i.pinimg.com/1200x/67/92/8c/67928c076f00931bd7753dc886904ada.jpg",
+    rating: { rate: 4.6, count: 2890 }
   },
   {
     id: 6,
@@ -45,7 +50,8 @@ export const Shoes = [
     brand: "Adidas",
     price: 100,
     category: "Casual",
-    image: "https://i.pinimg.com/1200x/36/1e/2b/361e2b266fbe5e3b0f1a78aeda898a91.jpg"
+    image: "https://i.pinimg.com/1200x/36/1e/2b/361e2b266fbe5e3b0f1a78aeda898a91.jpg",
+    rating: { rate: 4.8, count: 4100 }
   },
   {
     id: 7,
@@ -53,7 +59,8 @@ export const Shoes = [
     brand: "Adidas",
     price: 190,
     category: "Running",
-    image: "https://i.pinimg.com/736x/b9/63/6c/b9636cac6934cce998132ae39387283a.jpg"
+    image: "https://i.pinimg.com/736x/b9/63/6c/b9636cac6934cce998132ae39387283a.jpg",
+    rating: { rate: 4.9, count: 5200 }
   },
   {
     id: 8,
@@ -61,7 +68,8 @@ export const Shoes = [
     brand: "Adidas",
     price: 110,
     category: "Streetwear",
-    image: "https://i.pinimg.com/736x/de/45/d5/de45d5eebc8e3c72850315db553da712.jpg"
+    image: "https://i.pinimg.com/736x/de/45/d5/de45d5eebc8e3c72850315db553da712.jpg",
+    rating: { rate: 4.5, count: 2300 }
   },
   {
     id: 9,
@@ -69,7 +77,8 @@ export const Shoes = [
     brand: "Adidas",
     price: 255,
     category: "Running",
-    image: "https://i.pinimg.com/1200x/6f/91/1a/6f911a661b02c7f3ac7262e7869f554d.jpg"
+    image: "https://i.pinimg.com/1200x/6f/91/1a/6f911a661b02c7f3ac7262e7869f554d.jpg",
+    rating: { rate: 4.7, count: 980 }
   },
   {
     id: 10,
@@ -77,7 +86,8 @@ export const Shoes = [
     brand: "Puma",
     price: 85,
     category: "Casual",
-    image: "https://i.pinimg.com/736x/ba/53/75/ba5375f841827b882399944202755759.jpg"
+    image: "https://i.pinimg.com/736x/ba/53/75/ba5375f841827b882399944202755759.jpg",
+    rating: { rate: 4.3, count: 1500 }
   },
   {
     id: 11,
@@ -85,7 +95,8 @@ export const Shoes = [
     brand: "Puma",
     price: 250,
     category: "Running",
-    image: "https://i.pinimg.com/1200x/ae/06/e1/ae06e17d4367a51aa88ee5331a34b5b6.jpg"
+    image: "https://i.pinimg.com/1200x/ae/06/e1/ae06e17d4367a51aa88ee5331a34b5b6.jpg",
+    rating: { rate: 4.6, count: 1120 }
   },
   {
     id: 12,
@@ -93,7 +104,8 @@ export const Shoes = [
     brand: "New Balance",
     price: 120,
     category: "Lifestyle",
-    image: "https://i.pinimg.com/736x/22/9d/91/229d91f13e2307aeea7ef85fd1541583.jpg"
+    image: "https://i.pinimg.com/736x/22/9d/91/229d91f13e2307aeea7ef85fd1541583.jpg",
+    rating: { rate: 4.7, count: 3400 }
   },
   {
     id: 13,
@@ -101,7 +113,8 @@ export const Shoes = [
     brand: "New Balance",
     price: 150,
     category: "Lifestyle",
-    image: "https://i.pinimg.com/736x/d3/db/92/d3db92ce16fa17fd5e6c6bddd6242e5b.jpg"
+    image: "https://i.pinimg.com/736x/d3/db/92/d3db92ce16fa17fd5e6c6bddd6242e5b.jpg",
+    rating: { rate: 4.8, count: 2700 }
   },
   {
     id: 14,
@@ -109,7 +122,8 @@ export const Shoes = [
     brand: "New Balance",
     price: 180,
     category: "Streetwear",
-    image: "https://i.pinimg.com/1200x/d9/95/ef/d995ef40e035c879ca54b663dc87b9a0.jpg"
+    image: "https://i.pinimg.com/1200x/d9/95/ef/d995ef40e035c879ca54b663dc87b9a0.jpg",
+    rating: { rate: 4.6, count: 1900 }
   },
   {
     id: 15,
@@ -117,7 +131,8 @@ export const Shoes = [
     brand: "Converse",
     price: 90,
     category: "Casual",
-    image: "https://i.pinimg.com/736x/bd/16/bc/bd16bcd15b29bac2662d46c2eff8986b.jpg"
+    image: "https://i.pinimg.com/736x/bd/16/bc/bd16bcd15b29bac2662d46c2eff8986b.jpg",
+    rating: { rate: 4.4, count: 2600 }
   },
   {
     id: 16,
@@ -125,7 +140,8 @@ export const Shoes = [
     brand: "Vans",
     price: 80,
     category: "Skate",
-    image: "https://i.pinimg.com/736x/d9/91/43/d991432d4acb9da2823f45989e5bcc4f.jpg"
+    image: "https://i.pinimg.com/736x/d9/91/43/d991432d4acb9da2823f45989e5bcc4f.jpg",
+    rating: { rate: 4.5, count: 3800 }
   },
   {
     id: 17,
@@ -133,7 +149,8 @@ export const Shoes = [
     brand: "Asics",
     price: 180,
     category: "Running",
-    image: "https://i.pinimg.com/736x/92/b7/07/92b70777505e55b3734da7988d33719b.jpg"
+    image: "https://i.pinimg.com/736x/92/b7/07/92b70777505e55b3734da7988d33719b.jpg",
+    rating: { rate: 4.6, count: 2100 }
   },
   {
     id: 18,
@@ -141,7 +158,8 @@ export const Shoes = [
     brand: "Hoka",
     price: 145,
     category: "Running",
-    image: "https://i.pinimg.com/736x/16/2c/bf/162cbfa2a1b736bcd1447701d65228ad.jpg"
+    image: "https://i.pinimg.com/736x/16/2c/bf/162cbfa2a1b736bcd1447701d65228ad.jpg",
+    rating: { rate: 4.7, count: 1850 }
   },
   {
     id: 19,
@@ -149,7 +167,8 @@ export const Shoes = [
     brand: "On",
     price: 170,
     category: "Running",
-    image: "https://i.pinimg.com/1200x/e6/20/84/e620844f1c070d0ea836b59bef21014b.jpg"
+    image: "https://i.pinimg.com/1200x/e6/20/84/e620844f1c070d0ea836b59bef21014b.jpg",
+    rating: { rate: 4.8, count: 1420 }
   },
   {
     id: 20,
@@ -157,6 +176,7 @@ export const Shoes = [
     brand: "Reebok",
     price: 85,
     category: "Casual",
-    image: "https://i.pinimg.com/736x/8f/78/1b/8f781b831ccdd7cbd16edc2720f36261.jpg"
+    image: "https://i.pinimg.com/736x/8f/78/1b/8f781b831ccdd7cbd16edc2720f36261.jpg",
+    rating: { rate: 4.3, count: 1600 }
   }
 ];

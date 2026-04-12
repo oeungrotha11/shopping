@@ -1,1 +1,30 @@
 @import 'tailwindcss';
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.animate-scroll {
+  animation: scroll 40s linear infinite;
+}
+.animate-scroll:hover {
+  animation-play-state: paused;
+}
+
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
