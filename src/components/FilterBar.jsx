@@ -24,7 +24,7 @@ function FilterBar({ categories = [], setCategory, category }) {
   return (
     <div
       className={`
-        fixed top-[73px] left-0 w-full  bg-white shadow z-[9998]
+        fixed top-[50px] left-0 w-full  bg-white shadow z-[9998]
         transition-all duration-300 flex justify-center items-center   
         ${show ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"}
 
@@ -42,7 +42,7 @@ function FilterBar({ categories = [], setCategory, category }) {
                   ? "bg-black text-white"
                   : "hover:bg-black hover:text-white"
                 }
-      `}
+            `}
             >
               {cat.charAt(0).toUpperCase() + cat.slice(1)}
             </button>

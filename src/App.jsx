@@ -7,16 +7,15 @@ import { BrowserRouter, Outlet, Route, Routes } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Footer from './components/Footer'
-import Shop from './pages/Shop'
-import Categories from './pages/Categories'
-import Contact from './pages/Contact'
 import Login from './pages/Login'
 import Register from './pages/Register'
-import ProductVeiw from './pages/ProductVeiw'
 import Checkout from './pages/Checkout'
-import Price from './pages/Price'
 import Men_product from './pages/men/Men_product'
 import Women_product from './pages/men/Women_product'
+import ProductDetail from './pages/ProductDetail'
+import Cart from './pages/Cart'
+import Wishlist from './pages/Wishlist'
+import ProductCard from './components/ProductCard'
 
 
 
@@ -44,14 +43,13 @@ function App() {
       <Routes>
         <Route element={<WithNav />}>
           <Route path='/' element={<Home />} />
-          <Route path='/shop' element={<Shop />} />
-          <Route path='/category' element={<Categories />} />
-          <Route path='/contact' element={<Contact />} />
-          <Route path='productview' element={<ProductVeiw />} />
           <Route path='/checkout' element={<Checkout/>}/>
-          <Route path='/pricing' element={<Price/>}/>
           <Route path='/men_product' element={<Men_product/>}/>
           <Route path='/women_product' element={<Women_product/>}/>
+          <Route path="/product/:id" element={<ProductDetail />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/wishlist" element={<Wishlist />} />
+          <Route path="/productcard" element={<ProductCard />} />
 
         </Route>
       </Routes>
