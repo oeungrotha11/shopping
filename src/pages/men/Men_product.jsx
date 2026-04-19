@@ -55,7 +55,7 @@ function Men_product() {
       : Men_Product.filter(p => p.category === category);
 
   return (
-    <div className='men_product pt-30'>
+    <div className='men_product my-32 '>
       <div className=''>
         <FilterBar categories={categories} setCategory={setCategory} category={category} />
       </div>
@@ -86,6 +86,7 @@ function Men_product() {
         onToggleWishlist={toggleWishlist}
         onAddToCart={addToCart}
         layout="grid"
+        
       />
     </div>
   )

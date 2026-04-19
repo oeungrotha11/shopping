@@ -40,9 +40,9 @@ function Checkout() {
   return (
     <>
       <ToastContainer toasts={toasts} removeToast={removeToast} />
-      <div className="bg-white">
+      <div className="bg-white my-12">
         <div className="flex max-md:flex-col gap-12 max-lg:gap-4 h-full">
-          
+
           {/* LEFT - Cart Items Summary */}
           <div className="bg-gray-100 md:h-screen md:sticky md:top-0 md:min-w-[370px]">
             <div className="relative h-full">
@@ -63,9 +63,9 @@ function Checkout() {
                     </div>
                   ))}
                 </div>
-                
+
                 <hr className="border-gray-300 my-8" />
-                
+
                 <div>
                   <ul className="text-slate-500 font-medium space-y-4">
                     <li className="flex flex-wrap gap-4 text-sm">Subtotal <span className="ml-auto font-semibold text-slate-900">${subtotal.toFixed(2)}</span></li>
@@ -76,10 +76,10 @@ function Checkout() {
                   </ul>
 
                   <div className="mt-8">
-                    <button 
-                      type="button" 
+                    <button
+                      type="button"
                       onClick={handleSubmit}
-                      className="rounded-md px-4 py-2.5 w-full text-sm font-medium tracking-wide bg-blue-600 hover:bg-blue-700 text-white cursor-pointer"
+                      className="rounded-md px-4 py-2.5 w-full text-sm font-medium tracking-wide bg-black hover:bg-gray-800 text-white cursor-pointer"
                     >
                       Complete Purchase
                     </button>
@@ -97,74 +97,74 @@ function Checkout() {
                 <div className="grid lg:grid-cols-2 gap-y-6 gap-x-4">
                   <div>
                     <label className="text-sm text-slate-900 font-medium block mb-2">First Name</label>
-                    <input 
-                      type="text" 
+                    <input
+                      type="text"
                       placeholder="Enter First Name"
                       required
-                      className="px-4 py-2.5 bg-white border border-gray-400 text-slate-900 w-full text-sm rounded-md focus:outline-blue-600" 
+                      className="px-4 py-2.5 bg-white border border-gray-400 text-slate-900 w-full text-sm rounded-md focus:outline-blue-600"
                     />
                   </div>
                   <div>
                     <label className="text-sm text-slate-900 font-medium block mb-2">Last Name</label>
-                    <input 
-                      type="text" 
+                    <input
+                      type="text"
                       placeholder="Enter Last Name"
                       required
-                      className="px-4 py-2.5 bg-white border border-gray-400 text-slate-900 w-full text-sm rounded-md focus:outline-blue-600" 
+                      className="px-4 py-2.5 bg-white border border-gray-400 text-slate-900 w-full text-sm rounded-md focus:outline-blue-600"
                     />
                   </div>
                   <div>
                     <label className="text-sm text-slate-900 font-medium block mb-2">Email</label>
-                    <input 
-                      type="email" 
+                    <input
+                      type="email"
                       placeholder="Enter Email"
                       required
-                      className="px-4 py-2.5 bg-white border border-gray-400 text-slate-900 w-full text-sm rounded-md focus:outline-blue-600" 
+                      className="px-4 py-2.5 bg-white border border-gray-400 text-slate-900 w-full text-sm rounded-md focus:outline-blue-600"
                     />
                   </div>
                   <div>
                     <label className="text-sm text-slate-900 font-medium block mb-2">Phone No.</label>
-                    <input 
-                      type="tel" 
+                    <input
+                      type="tel"
                       placeholder="Enter Phone No."
                       required
-                      className="px-4 py-2.5 bg-white border border-gray-400 text-slate-900 w-full text-sm rounded-md focus:outline-blue-600" 
+                      className="px-4 py-2.5 bg-white border border-gray-400 text-slate-900 w-full text-sm rounded-md focus:outline-blue-600"
                     />
                   </div>
                   <div>
                     <label className="text-sm text-slate-900 font-medium block mb-2">Address Line</label>
-                    <input 
-                      type="text" 
+                    <input
+                      type="text"
                       placeholder="Enter Address Line"
                       required
-                      className="px-4 py-2.5 bg-white border border-gray-400 text-slate-900 w-full text-sm rounded-md focus:outline-blue-600" 
+                      className="px-4 py-2.5 bg-white border border-gray-400 text-slate-900 w-full text-sm rounded-md focus:outline-blue-600"
                     />
                   </div>
                   <div>
                     <label className="text-sm text-slate-900 font-medium block mb-2">City</label>
-                    <input 
-                      type="text" 
+                    <input
+                      type="text"
                       placeholder="Enter City"
                       required
-                      className="px-4 py-2.5 bg-white border border-gray-400 text-slate-900 w-full text-sm rounded-md focus:outline-blue-600" 
+                      className="px-4 py-2.5 bg-white border border-gray-400 text-slate-900 w-full text-sm rounded-md focus:outline-blue-600"
                     />
                   </div>
                   <div>
                     <label className="text-sm text-slate-900 font-medium block mb-2">State</label>
-                    <input 
-                      type="text" 
+                    <input
+                      type="text"
                       placeholder="Enter State"
                       required
-                      className="px-4 py-2.5 bg-white border border-gray-400 text-slate-900 w-full text-sm rounded-md focus:outline-blue-600" 
+                      className="px-4 py-2.5 bg-white border border-gray-400 text-slate-900 w-full text-sm rounded-md focus:outline-blue-600"
                     />
                   </div>
                   <div>
                     <label className="text-sm text-slate-900 font-medium block mb-2">Zip Code</label>
-                    <input 
-                      type="text" 
+                    <input
+                      type="text"
                       placeholder="Enter Zip Code"
                       required
-                      className="px-4 py-2.5 bg-white border border-gray-400 text-slate-900 w-full text-sm rounded-md focus:outline-blue-600" 
+                      className="px-4 py-2.5 bg-white border border-gray-400 text-slate-900 w-full text-sm rounded-md focus:outline-blue-600"
                     />
                   </div>
                 </div>
@@ -203,14 +203,14 @@ function Checkout() {
               <div className="mt-12 max-w-md">
                 <p className="text-slate-900 text-sm font-medium mb-2">Do you have a promo code?</p>
                 <div className="flex gap-4">
-                  <input 
-                    type="text" 
+                  <input
+                    type="text"
                     placeholder="Promo code"
-                    className="px-4 py-2.5 bg-white border border-gray-400 text-slate-900 w-full text-sm rounded-md focus:outline-blue-600" 
+                    className="px-4 py-2.5 bg-white border border-gray-400 text-slate-900 w-full text-sm rounded-md focus:outline-blue-600"
                   />
-                  <button 
-                    type='button' 
-                    className="flex items-center justify-center font-medium tracking-wide bg-blue-600 hover:bg-blue-700 px-4 py-2.5 rounded-md text-sm text-white cursor-pointer"
+                  <button
+                    type='button'
+                    className="flex items-center justify-center font-medium tracking-wide bg-black hover:bg-gray-800 px-4 py-2.5 rounded-md text-sm text-white cursor-pointer"
                   >
                     Apply
                   </button>

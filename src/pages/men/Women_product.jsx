@@ -54,7 +54,7 @@ function Women_product() {
       : Women_Product.filter(p => p.category === category);
 
   return (
-    <div className='women_product pt-30'>
+    <div className='women_product my-32'>
       <div className=''>
         <FilterBar categories={categories} setCategory={setCategory} category={category} />
       </div>

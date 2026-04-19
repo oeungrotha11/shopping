@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { MdDelete } from "react-icons/md";
 import { Link } from "react-router-dom";
 
 function Wishlist() {
@@ -25,7 +26,7 @@ function Wishlist() {
   }
 
   return (
-    <div className="max-w-6xl mx-auto px-6 mt-20">
+    <div className="max-w-6xl mx-auto px-6 my-32">
 
       <h1 className="text-2xl font-semibold mb-6">My Wishlist</h1>
 
@@ -50,9 +51,9 @@ function Wishlist() {
 
             <button
               onClick={() => removeItem(item.id)}
-              className="mt-2 text-red-500 text-sm"
+              className="text-red-500 text-2xl mt-5 hover:text-rose-400 active:text-red-300"
             >
-              Remove
+              <MdDelete className="" />
             </button>
 
           </div>

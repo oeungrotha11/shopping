@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { MdDelete } from "react-icons/md";
 import { Link } from "react-router-dom";
 
 function Cart() {
@@ -30,7 +31,7 @@ function Cart() {
 
   if (cart.length === 0) {
     return (
-      <div className="text-center mt-32">
+      <div className="text-center my-32">
         <h1 className="text-2xl font-semibold">Your Cart is Empty 🛒</h1>
         <Link to="/" className="mt-4 inline-block underline">Go Shopping</Link>
       </div>
@@ -38,7 +39,7 @@ function Cart() {
   }
 
   return (
-    <div className="max-w-6xl mx-auto px-6 mt-20">
+    <div className="max-w-6xl mx-auto px-6 my-32">
 
       <h1 className="text-2xl font-semibold mb-6">Shopping Cart</h1>
 
@@ -72,9 +73,10 @@ function Cart() {
               {/* Remove */}
               <button
                 onClick={() => removeItem(item.id)}
-                className="text-red-500"
+                className="text-red-500 text-2xl hover:text-rose-400 active:text-red-300"
               >
-                ✕
+                <MdDelete className="" />
+
               </button>
 
             </div>

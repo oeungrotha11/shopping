@@ -44,9 +44,11 @@ function Navbar() {
       <div className="max-w-7xl mx-auto px-6 py-1 flex items-center justify-between">
 
         {/* Logo */}
+        <Link to={"/#"}>
         <div className="text-2xl font-semibold text-black">
-          AVATO
+          SHOP
         </div>
+        </Link>
 
         {/* Menu */}
         <div className="hidden md:flex gap-8 text-black font-medium items-center">
@@ -303,7 +305,7 @@ function Navbar() {
                 LOGIN
               </button>
             </Link>
-            <Link to="/login">
+            <Link to="/register">
               <button className=" px-2 py-2  rounded-lg text-black hover:bg-gray-100 active:bg-gray-200" title='Register'>
                 REGISTER
               </button>
@@ -336,11 +338,6 @@ function Navbar() {
             {/* Home */}
             <Link to="/" onClick={() => setMenuOpen(false)}>
               HOME
-            </Link>
-
-            {/* Shop */}
-            <Link to="/shop" onClick={() => setMenuOpen(false)}>
-              SHOP
             </Link>
 
             {/* MEN Dropdown */}
@@ -438,12 +435,18 @@ function Navbar() {
             </div>
 
             {/* Other */}
+            <Link to="/wishlist" onClick={() => setMenuOpen(false)}>
+              WISHLIST
+            </Link>
             <Link to="/cart" onClick={() => setMenuOpen(false)}>
               CART
             </Link>
 
             <Link to="/login" onClick={() => setMenuOpen(false)}>
               LOGIN
+            </Link>
+            <Link to="/register" onClick={() => setMenuOpen(false)}>
+              REGISTER
             </Link>
 
           </div>

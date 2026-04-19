@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Register() {
   return (
@@ -13,7 +14,7 @@ function Register() {
         Back
       </button>
       <div class="bg-gray-50"></div>
-      <div class="bg-slate-50 flex items-center md:h-screen p-4">
+      <div class="bg-slate-50 flex items-center md:h-screen p-4 pt-20">
       <div class="w-full max-w-3xl max-md:max-w-xl mx-auto">
         <div class="bg-white grid md:grid-cols-2 gap-10 w-full sm:p-8 p-6 shadow-md rounded-md overflow-hidden">
           <div class="max-md:order-1 space-y-6">
@@ -116,11 +117,17 @@ function Register() {
             </div>
 
             <div class="!mt-8">
-              <button type="button" class="w-full py-2.5 px-4 text-sm font-medium tracking-wider cursor-pointer rounded-md bg-blue-600 hover:bg-blue-700 text-white focus:outline-none">
+              <Link to={"/#"}>
+              <button type="button" class="w-full py-2.5 px-4 text-sm font-medium tracking-wider cursor-pointer rounded-md bg-black hover:bg-gray-800 text-white focus:outline-none">
                 Create Account
               </button>
+              </Link>
             </div>
-            <p class="text-slate-600 text-sm mt-4 text-left">Already have an account? <a href="javascript:void(0);" class="text-blue-600 font-medium hover:underline ml-1">Login here</a></p>
+            <p class="text-slate-600 text-sm mt-4 text-left">Already have an account? <a href="javascript:void(0);" class="text-blue-600 font-medium hover:underline ml-1">
+              <Link to={"/login"}>
+              Login here
+              </Link>
+              </a></p>
           </form>
         </div>
       </div>
